@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Displaybox {
+  width: 300px;
+  height: 250px;
+  background-color: orange;
+  
+}
+
+.Buttons {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Buttons button {
+  width: calc((300px - 2rem)/3);
+  padding: 0.5rem 0 0.5rem 0;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.Message h1 {
+  color: tomato;
+  text-align: center;
+}
+
